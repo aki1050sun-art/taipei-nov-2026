@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>台北旅行｜2026年11月ランチャー</title>
+<style>
+:root{--navy:#163e63;--blue:#1565c0;--green:#0f766e;--orange:#ea580c;--amber:#f59e0b;--bg:#f3f5f7;--ink:#1f2937;--muted:#64748b;--line:#e5e7eb;--card:#fff}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans JP",sans-serif}
+header{position:sticky;top:0;z-index:40;background:var(--navy);color:#fff;padding:12px 12px 10px;box-shadow:0 2px 10px #0002}header h1{font-size:17px;margin:0 0 7px}header p{font-size:11px;opacity:.92;margin:0 0 9px}.jump{display:flex;gap:7px;overflow:auto;padding-bottom:2px}.jump a{white-space:nowrap;text-decoration:none;background:#fff;color:var(--navy);font-weight:900;font-size:12px;border-radius:999px;padding:8px 11px}
+main{max-width:900px;margin:auto;padding:9px}.topbar{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:10px}.topbtn{border:0;border-radius:12px;padding:11px;font-weight:900;font-size:12px;cursor:pointer}.hotel{background:#fff7ed;color:#9a3412;border:1px solid #fed7aa}.translate{background:#ecfdf5;color:#065f46;border:1px solid #a7f3d0}.notice{background:#fff;border-radius:13px;padding:11px 12px;font-size:12px;line-height:1.6;color:#475569;margin-bottom:12px}.day{scroll-margin-top:106px}.day h2{font-size:20px;color:var(--navy);margin:18px 3px 8px}.timeline{background:#fff;border-radius:15px;box-shadow:0 2px 8px #0001;overflow:hidden;margin-bottom:12px}.timeline-title{background:#e8f1fb;color:#135ea8;font-weight:900;padding:10px 12px;font-size:14px}.tlrow{display:grid;grid-template-columns:88px 1fr;gap:9px;padding:9px 11px;border-top:1px solid #eef2f7}.tltime{font-weight:900;color:#163e63;font-size:12px}.tlbody{font-size:13px;line-height:1.5}.tlbody small{display:block;color:#64748b;margin-top:2px}.area{background:#fff;border-radius:15px;margin:10px 0;padding:11px;box-shadow:0 2px 8px #0001}.areahead{display:flex;justify-content:space-between;gap:8px;align-items:center;margin-bottom:3px}.areahead h3{font-size:15px;margin:0}.arealink{font-size:11px;text-decoration:none;font-weight:800;color:#135ea8;background:#e8f1fb;padding:7px 9px;border-radius:8px}.place{padding:11px 3px;border-top:1px solid #eee}.place:first-of-type{border-top:0}.name{font-weight:900;font-size:15px}.badge{font-size:10px;padding:2px 7px;border-radius:999px;margin-left:5px}.must{background:#dcfce7;color:#166534}.cand{background:#fef3c7;color:#854d0e}.meta{font-size:12px;color:#64748b;margin-top:3px;line-height:1.45}.snapshot{display:grid;grid-template-columns:1fr 1fr;gap:6px;margin-top:8px}.chip{background:#f8fafc;border:1px solid #e2e8f0;border-radius:9px;padding:7px 8px;font-size:11px;line-height:1.4}.chip strong{display:block;color:#334155}.spice-note{font-size:11px;color:#64748b;margin-top:7px;line-height:1.5}.walkinfo{font-size:12px;font-weight:800;color:#0f766e;margin-top:7px;padding:7px 9px;background:#f0fdfa;border:1px solid #99f6e4;border-radius:8px}.actions{display:flex;flex-wrap:wrap;gap:6px;margin-top:9px}.actions a,.actions button{flex:1 1 120px;border:0;border-radius:9px;padding:9px 8px;font-size:11px;font-weight:900;text-align:center;text-decoration:none;cursor:pointer;font-family:inherit}.mapbtn{background:#1565c0;color:#fff}.taxibtn{background:#f59e0b;color:#fff}.orderbtn{background:#059669;color:#fff}.stationbtn{background:#0f766e;color:#fff}.visitbtn{background:#fff;color:#475569;border:1px solid #94a3b8!important}.visitbtn.on{background:#0f766e;color:#fff;border-color:#0f766e!important}.reviewbox{display:none;margin-top:9px;padding:9px;border-radius:10px;background:#f8fafc}.reviewbox.show{display:block}.memo{width:100%;margin-top:8px;border:1px solid #cbd5e1;border-radius:8px;padding:8px;font:inherit;font-size:12px;min-height:58px}.candidate-section{background:#fffbeb;border:1px solid #fde68a}.candidate-section h3{color:#92400e}
+.modal{display:none;position:fixed;inset:0;z-index:100;background:#0009;padding:14px;align-items:center;justify-content:center}.modal.show{display:flex}.modalcard{width:min(580px,100%);max-height:90vh;overflow:auto;background:#fff;border-radius:18px;padding:17px;box-shadow:0 16px 50px #0005}.modalhead{display:flex;justify-content:space-between;gap:10px}.close{border:0;border-radius:999px;width:36px;height:36px;font-size:20px;background:#e2e8f0}.label{font-size:11px;color:#64748b;margin-top:13px}.bigzh{font-size:25px;font-weight:900;line-height:1.45;background:#fff7ed;border:2px solid #fdba74;border-radius:13px;padding:12px;margin-top:5px}.bigjp{font-size:14px;font-weight:900;line-height:1.5;margin-top:4px}.address{font-size:18px;font-weight:800;line-height:1.55;background:#f8fafc;border-radius:10px;padding:10px;margin-top:5px}.modalactions{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:12px}.bigbtn{border:0;border-radius:11px;padding:12px;font-size:13px;font-weight:900;text-align:center;text-decoration:none}.speak{background:#16a34a;color:#fff}.openmap{background:#1565c0;color:#fff}.menuitem{padding:9px 0;border-top:1px solid #e5e7eb}.menuitem:first-child{border-top:0}.menuzh{font-size:18px;font-weight:900}.menujp{font-size:12px;color:#64748b;margin-top:2px}.orderphrase{font-size:22px;font-weight:900;background:#ecfdf5;border:2px solid #6ee7b7;border-radius:12px;padding:11px;margin-top:7px}.ordbtns{display:grid;grid-template-columns:1fr 1fr;gap:7px;margin-top:10px}.ordbtn{border:1px solid #a7f3d0;background:#f0fdf4;color:#065f46;border-radius:9px;padding:9px;font-size:11px;font-weight:900}.stationline{margin:9px 0;font-size:13px;line-height:1.55}.stationline strong{color:#163e63}.warn{color:#b45309;font-weight:800}.maplinks{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:14px 0}.maplink{display:block;text-decoration:none;text-align:center;border-radius:12px;padding:12px 10px;font-size:12px;font-weight:900}.area-map{background:#f5f3ff;color:#6d28d9;border:1px solid #ddd6fe}.mrt-map{background:#ecfeff;color:#0e7490;border:1px solid #a5f3fc}@media(max-width:520px){.maplinks{grid-template-columns:1fr}}.footer{font-size:11px;color:#64748b;line-height:1.6;padding:15px 5px 25px}
+@media(max-width:520px){.snapshot{grid-template-columns:1fr}.tlrow{grid-template-columns:78px 1fr}.modalactions{grid-template-columns:1fr}.topbar{grid-template-columns:1fr}.bigzh{font-size:22px}}
+</style>
+</head>
+<body>
+<header>
+  <h1>台北旅行｜2026年11月ランチャー</h1>
+  <p>にーしゃん＆とーごー｜11/21（土）〜11/23（月）</p>
+  <nav class="jump"><a href="#d21">11/21</a><a href="#d22">11/22</a><a href="#d23">11/23</a><a href="#candidates">候補店</a></nav>
+</header>
+<main>
+  <div class="topbar">
+    <button class="topbtn hotel" onclick="openTaxi('Cosmos Hotel Taipei・にーしゃん＆とーごー合流（台北天成大飯店）','台北天成大飯店','台北市中正區忠孝西路一段43號')">🏨 ホテルへ戻る｜タクシー</button>
+    <button class="topbtn translate" onclick="window.open('https://translate.google.com/?sl=ja&tl=zh-TW&op=translate','_blank')">🎤 Google翻訳を開く</button>
+  </div>
+  <div class="notice">現時点FIX版。旅行前は予定順、旅行中は「行った」を押して実績を残せます。Google評価は2026/11/08時点で確認できたスナップショットを優先し、取得元で件数が不安定な店は「直前確認」としています。八角・五香粉／香辛料感はレシピ断定ではなく旅行時の目安です。</div>
+
+  <section class="day" id="d21">
+    <h2>11/21（土）｜到着日・迪化街・阿城鵝肉</h2>
+    <div class="timeline">
+      <div class="timeline-title">本日のタイムスケジュール</div>
+      <div class="tlrow"><div class="tltime">08:55</div><div class="tlbody">桃園国際空港 着</div></div>
+      <div class="tlrow"><div class="tltime">10:30〜10:45</div><div class="tlbody">Cosmos Hotel Taipei 着・荷物預け</div></div>
+      <div class="tlrow"><div class="tltime">11:15〜11:30</div><div class="tlbody">雙月食品社 青島店<small>初日の昼食。鶏スープ・麺類など。</small></div></div>
+      <div class="tlrow"><div class="tltime">13:00〜15:30</div><div class="tlbody">迪化街・大稻埕散策</div></div>
+      <div class="tlrow"><div class="tltime">14:30頃</div><div class="tlbody">妙口四神湯 肉包<small>軽食。肉包・四神湯をシェア想定。</small></div></div>
+      <div class="tlrow"><div class="tltime">16:00〜17:30</div><div class="tlbody">ホテルへ戻る・チェックイン・休憩</div></div>
+      <div class="tlrow"><div class="tltime">18:00〜18:30</div><div class="tlbody">阿城鵝肉<small>初日のメイン夕食。</small></div></div>
+      <div class="tlrow"><div class="tltime">夜</div><div class="tlbody">余力があれば中山・台北駅周辺。無理ならホテルへ。</div></div>
+    </div>
+    <div class="area"><div class="areahead"><h3>善導寺・青島</h3><a class="arealink" target="_blank" href="https://www.google.com/maps/search/?api=1&query=%E9%9D%92%E5%B3%B6%E6%9D%B1%E8%B7%AF%20%E5%8F%B0%E5%8C%97">エリア地図</a></div><div id="p-moon"></div></div>
+    <div class="area"><div class="areahead"><h3>迪化街・大稻埕</h3><a class="arealink" target="_blank" href="https://www.google.com/maps/search/?api=1&query=%E8%BF%AA%E5%8C%96%E8%A1%97%20%E5%8F%B0%E5%8C%97">エリア地図</a></div><div id="p-miaokou"></div></div>
+    <div class="area"><div class="areahead"><h3>吉林路</h3><a class="arealink" target="_blank" href="https://www.google.com/maps/search/?api=1&query=%E5%90%89%E6%9E%97%E8%B7%AF%20%E5%8F%B0%E5%8C%97">エリア地図</a></div><div id="p-acheng"></div></div>
+  </section>
+
+  <section class="day" id="d22">
+    <h2>11/22（日）｜食中心のメイン日</h2>
+    <div class="timeline">
+      <div class="timeline-title">本日のタイムスケジュール</div>
+      <div class="tlrow"><div class="tltime">08:00</div><div class="tlbody">良粟商號<small>朝食。11/22営業は旅行直前に再確認。</small></div></div>
+      <div class="tlrow"><div class="tltime">09:00〜10:30</div><div class="tlbody">散策・観光・休憩</div></div>
+      <div class="tlrow"><div class="tltime">11:20</div><div class="tlbody">済南鮮湯包 総店<small>マスト。この日の昼食。</small></div></div>
+      <div class="tlrow"><div class="tltime">13:00〜14:30</div><div class="tlbody">散策・休憩</div></div>
+      <div class="tlrow"><div class="tltime">15:00頃</div><div class="tlbody">古北饕 Goodbeitao<small>午後の点心。軽めに。</small></div></div>
+      <div class="tlrow"><div class="tltime">16:00〜17:30</div><div class="tlbody">西門方面へ移動・散策</div></div>
+      <div class="tlrow"><div class="tltime">18:00頃</div><div class="tlbody">天天利美食坊<small>魯肉飯＋目玉焼きなど。量は調整。</small></div></div>
+      <div class="tlrow"><div class="tltime">20:30頃</div><div class="tlbody">方家雞肉飯<small>寧夏夜市。夜の締め。</small></div></div>
+    </div>
+    <div class="area"><div class="areahead"><h3>行天宮</h3><a class="arealink" target="_blank" href="https://www.google.com/maps/search/?api=1&query=%E8%A1%8C%E5%A4%A9%E5%AE%AE%20%E5%8F%B0%E5%8C%97">エリア地図</a></div><div id="p-liangsu"></div></div>
+    <div class="area"><div class="areahead"><h3>済南路・善導寺</h3><a class="arealink" target="_blank" href="https://www.google.com/maps/search/?api=1&query=%E6%BF%9F%E5%8D%97%E8%B7%AF%20%E5%8F%B0%E5%8C%97">エリア地図</a></div><div id="p-jinan"></div><div id="p-good"></div></div>
+    <div class="area"><div class="areahead"><h3>西門</h3><a class="arealink" target="_blank" href="https://www.google.com/maps/search/?api=1&query=%E8%A5%BF%E9%96%80%E7%94%BA%20%E5%8F%B0%E5%8C%97">エリア地図</a></div><div id="p-tianti"></div></div>
+    <div class="area"><div class="areahead"><h3>寧夏夜市</h3><a class="arealink" target="_blank" href="https://www.google.com/maps/search/?api=1&query=%E5%AF%A7%E5%A4%8F%E5%A4%9C%E5%B8%82%20%E5%8F%B0%E5%8C%97">エリア地図</a></div><div id="p-fang"></div></div>
+  </section>
+
+  <section class="day" id="d23">
+    <h2>11/23（月）｜台北駅周辺＋永康街 → 帰国</h2>
+    <div class="timeline">
+      <div class="timeline-title">本日のタイムスケジュール</div>
+      <div class="tlrow"><div class="tltime">07:20頃</div><div class="tlbody">ホテル出発</div></div>
+      <div class="tlrow"><div class="tltime">07:30〜08:00</div><div class="tlbody">69年老店麵攤（米粉湯）<small>朝食。米粉湯中心。</small></div></div>
+      <div class="tlrow"><div class="tltime">08:00頃</div><div class="tlbody">永康街・東門方面へ移動</div></div>
+      <div class="tlrow"><div class="tltime">08:30〜09:00頃</div><div class="tlbody">天津蔥抓餅<small>1枚シェア程度。</small></div></div>
+      <div class="tlrow"><div class="tltime">09:00頃</div><div class="tlbody">台北駅方面へ戻る</div></div>
+      <div class="tlrow"><div class="tltime">09:30〜10:00</div><div class="tlbody">劉山東牛肉麵<small>台湾最後の食事。ホテル近く。</small></div></div>
+      <div class="tlrow"><div class="tltime">10:05〜11:00</div><div class="tlbody">Cosmos Hotelへ戻る・荷物回収・チェックアウト</div></div>
+      <div class="tlrow"><div class="tltime">11:15〜11:30</div><div class="tlbody">台北出発 → 桃園空港</div></div>
+      <div class="tlrow"><div class="tltime">14:00</div><div class="tlbody">とーごー｜Scoot TR874 出発</div></div>
+      <div class="tlrow"><div class="tltime">14:20</div><div class="tlbody">にーしゃん｜China Airlines CI172 出発</div></div>
+    </div>
+    <div class="area"><div class="areahead"><h3>台北駅・後站</h3><a class="arealink" target="_blank" href="https://www.google.com/maps/search/?api=1&query=%E5%8F%B0%E5%8C%97%E8%BB%8A%E7%AB%99">エリア地図</a></div><div id="p-69"></div></div>
+    <div class="area"><div class="areahead"><h3>永康街・東門</h3><a class="arealink" target="_blank" href="https://www.google.com/maps/search/?api=1&query=%E6%B0%B8%E5%BA%B7%E8%A1%97%20%E5%8F%B0%E5%8C%97">エリア地図</a></div><div id="p-tianjin"></div></div>
+    <div class="area"><div class="areahead"><h3>台北駅・開封街</h3><a class="arealink" target="_blank" href="https://www.google.com/maps/search/?api=1&query=%E9%96%8B%E5%B0%81%E8%A1%97%20%E5%8F%B0%E5%8C%97">エリア地図</a></div><div id="p-liu"></div></div>
+  </section>
+
+  <section class="day" id="candidates"><h2>候補店</h2><div class="area candidate-section"><div class="areahead"><h3>今回は未固定</h3></div><div id="p-linji"></div></div></section>
+  <div class="maplinks">
+    <a class="maplink area-map" target="_blank" rel="noopener" href="https://ethnolab.tw/wp-content/uploads/66b8c57b51f04f704b6dc63d7efd0905-e1625871668835.jpeg">🗺️ 台北エリア全体図を開く</a>
+    <a class="maplink mrt-map" target="_blank" rel="noopener" href="https://web.metro.taipei/QRCode/Routemap-TWEN.pdf">🚇 台北MRT路線図を開く</a>
+  </div>
+  <div class="footer">保存先はこの端末のブラウザ内（localStorage）です。11月版専用キー：taipei-nov2026-visited-v1 / taipei-nov2026-notes-v1。9月版とは完全分離しています。</div>
+</main>
+
+<div id="taxiModal" class="modal"><div class="modalcard"><div class="modalhead"><div><strong>🚕 運転手さんに見せる</strong><div class="label">目的地</div></div><button class="close" onclick="closeModal('taxiModal')">×</button></div><div id="taxiJp" class="bigjp"></div><div id="taxiTw" class="bigzh"></div><div id="taxiAddr" class="address"></div><div class="bigzh">麻煩載我到這裡，謝謝。</div><div class="modalactions"><button class="bigbtn speak" onclick="speak(document.getElementById('taxiTw').textContent+'。麻煩載我到這裡，謝謝。')">🔊 中国語で読み上げ</button><a id="taxiMap" class="bigbtn openmap" target="_blank">📍 Googleマップ</a></div></div></div>
+<div id="orderModal" class="modal"><div class="modalcard"><div class="modalhead"><div><strong>📋 注文サポート</strong><div id="orderShop" class="label"></div></div><button class="close" onclick="closeModal('orderModal')">×</button></div><div id="popularMenus"></div><div class="label">店員さんに見せる／聞かせる</div><div id="orderPhrase" class="orderphrase">我要一份這個，謝謝。</div><div class="ordbtns"><button class="ordbtn" onclick="setPhrase('我要一份這個，謝謝。')">これを1つ</button><button class="ordbtn" onclick="setPhrase('我要兩份這個，謝謝。')">これを2つ</button><button class="ordbtn" onclick="setPhrase('不要辣，謝謝。')">辛くしないで</button><button class="ordbtn" onclick="setPhrase('不要香菜，謝謝。')">パクチーなし</button><button class="ordbtn" onclick="setPhrase('外帶，謝謝。')">持ち帰り</button><button class="ordbtn" onclick="setPhrase('內用，謝謝。')">店内で食べる</button></div><button class="bigbtn speak" style="width:100%;margin-top:10px" onclick="speak(document.getElementById('orderPhrase').textContent)">🔊 中国語で読み上げ</button></div></div>
+<div id="stationModal" class="modal"><div class="modalcard"><div class="modalhead"><strong>🚇 駅情報</strong><button class="close" onclick="closeModal('stationModal')">×</button></div><div id="stationContent"></div></div></div>
+
+<script>
+const VISITED_KEY='taipei-nov2026-visited-v1';
+const NOTES_KEY='taipei-nov2026-notes-v1';
+const CHECKED='2026/11/08';
+const places={
+ moon:{walk:'善導寺駅 3番出口から徒歩約4分',name:'雙月食品社 青島店',tw:'雙月食品社 青島店',cat:'台湾料理・鶏スープ',status:'マスト',address:'台北市中正區青島東路6之2號',rating:'★4.8',reviews:'25,609件',ratingNote:'Google系スナップショット',hours:'土 11:00–14:00 / 17:00–20:00',station:'善導寺 BL13・3番出口',spice1:'少',spice2:'普通',spiceNote:'鶏スープ自体は穏やか。胡麻麺・辛味系は別。八角・五香粉は料理により感じる可能性。',menus:[['蛤蜊燉雞湯','アサリと鶏のスープ'],['油飯','台湾おこわ'],['香拌麵／胡麻系麵','混ぜ麺・胡麻麺系']],map:'雙月食品社 青島店 台北'},
+ miaokou:{walk:'大橋頭駅 1A出口から徒歩約10分',name:'妙口四神湯 肉包',tw:'妙口四神湯 肉包',cat:'肉包・四神湯',status:'マスト',address:'台北市大同區民生西路388號',rating:'★4.1',reviews:'約1,835件',ratingNote:'Google系スナップショット',hours:'土 10:00–18:00目安',station:'北門 G13 / 大橋頭 O12 周辺（迪化街北側）',spice1:'ほぼなし',spice2:'少',spiceNote:'四神湯は漢方系の香り。八角・五香粉というより薬膳素材の香りが中心。',menus:[['肉包','肉まん'],['四神湯','豚モツ入り薬膳スープ']],map:'妙口四神湯 肉包 台北'},
+ acheng:{walk:'松江南京駅から徒歩約9分',name:'阿城鵝肉 吉林店',tw:'阿城鵝肉 吉林店',cat:'ガチョウ料理',status:'マスト',address:'台北市中山區吉林路105號',rating:'★4.4〜4.5',reviews:'直前確認',ratingNote:'取得元で件数差が大きいため直前確認',hours:'土 11:20頃–20:00頃',station:'行天宮 O09 / 松江南京 G15・O08 周辺',spice1:'少',spice2:'少',spiceNote:'燻製鵝肉は香辛料より燻香が中心。麻辣系を頼むと香辛料感は一気に強くなる。',menus:[['煙燻鵝肉','燻製ガチョウ肉'],['鵝油飯','ガチョウ油ご飯'],['米血糕','米血糕']],map:'阿城鵝肉 吉林店 台北'},
+ liangsu:{walk:'行天宮駅 4番出口から徒歩約2分',name:'良粟商號 松江',tw:'良粟商號 松江',cat:'炭焼きトースト・朝食',status:'マスト',address:'台北市中山區松江路330巷8號',rating:'要直前確認',reviews:'要直前確認',ratingNote:'Googleの営業日表示も含め旅行直前確認',hours:'日 08:00予定（営業要再確認）',station:'行天宮 O09・4番出口周辺',spice1:'ほぼなし',spice2:'ほぼなし',spiceNote:'炭焼きトースト系。通常は八角・五香粉を強く感じる料理ではない。',menus:[['炭燒肉蛋吐司','炭焼き肉＋卵トースト'],['半熟蛋吐司','半熟卵トースト']],map:'良粟商號 松江 台北'},
+ jinan:{walk:'忠孝新生駅 6番出口から徒歩約2分',name:'済南鮮湯包 総店',tw:'濟南鮮湯包 總店',cat:'小籠包・湯包',status:'マスト',address:'台北市大安區濟南路三段20號',rating:'★4.1',reviews:'約3,246件',ratingNote:'Googleスナップショット',hours:'日 11:20–14:30 / 17:00–20:30',station:'忠孝新生 BL14・O07・6番出口 徒歩約2分',spice1:'ほぼなし',spice2:'少',spiceNote:'湯包は比較的穏やか。生姜・酢で調整するタイプで、八角・五香粉は主役ではない。',menus:[['濟南鮮湯包','看板湯包'],['絲瓜蝦仁湯包','ヘチマと海老の湯包'],['松露鮮湯包','トリュフ湯包']],map:'濟南鮮湯包 總店 台北'},
+ good:{walk:'善導寺駅 5番出口から徒歩約5分',name:'古北饕 Goodbeitao',tw:'古北饕 Goodbeitao',cat:'小籠包・中華料理',status:'マスト',address:'台北市中正區杭州南路一段9號',rating:'要直前確認',reviews:'要直前確認',ratingNote:'Google取得元の件数が不安定',hours:'日 11:00–21:00頃',station:'善導寺 BL13 周辺',spice1:'少',spice2:'少',spiceNote:'湯包・点心中心なら穏やか。熱炒や肉料理は品目により香辛料感あり。',menus:[['小籠湯包','小籠湯包'],['松露湯包','トリュフ湯包'],['絲瓜蝦仁湯包','ヘチマ海老湯包']],map:'古北饕 Goodbeitao 台北'},
+ tianti:{walk:'西門駅 6番出口から徒歩約4分',name:'天天利美食坊',tw:'天天利美食坊',cat:'魯肉飯・台湾小吃',status:'マスト',address:'台北市萬華區漢中街32巷1號',rating:'★4.3',reviews:'直前確認',ratingNote:'Google系スナップショット',hours:'日 11:00–22:30',station:'西門 BL11・G12・6番出口',spice1:'少',spice2:'少',spiceNote:'魯肉飯は煮込み香辛料をわずかに感じる可能性あり。強い八角感は目安として「少」。',menus:[['滷肉飯加蛋','魯肉飯＋目玉焼き'],['蚵仔煎','牡蠣オムレツ'],['蘿蔔糕','大根餅']],map:'天天利美食坊 台北'},
+ fang:{walk:'雙連駅 1番出口から徒歩約10分',name:'方家雞肉飯',tw:'方家雞肉飯',cat:'雞肉飯・寧夏夜市',status:'マスト',address:'台北市大同區寧夏路（寧夏夜市 060攤位）',rating:'要直前確認',reviews:'屋台のため取得元差あり',ratingNote:'旅行直前確認推奨',hours:'日 17:30–23:00',station:'雙連 R12・1番出口周辺',spice1:'ほぼなし',spice2:'少',spiceNote:'雞肉飯は比較的シンプル。卓上調味料で香辛料感を調整。',menus:[['雞肉飯','鶏肉飯'],['滷豆腐','煮込み豆腐'],['滷蛋','煮卵']],map:'方家雞肉飯 寧夏夜市 台北'},
+ p69:{walk:'台北駅 Y5出口から徒歩約4分',name:'69年老店麵攤（米粉湯）',tw:'69年老店麵攤（米粉湯）',cat:'米粉湯・黒白切',status:'マスト',address:'台北市大同區華陰街101巷5號',rating:'★4.2',reviews:'約172件',ratingNote:'Google系スナップショット',hours:'月 07:30〜08:00開店情報あり / 18:00頃まで',station:'台北車站・後站側（Y出口方面）',spice1:'少',spice2:'少',spiceNote:'米粉湯自体は穏やか。豆干など滷味系小菜では八角系を感じる可能性あり。',menus:[['米粉湯','米粉スープ'],['嘴邊肉','豚ほほ肉'],['黑白切','豚内臓・小菜盛り合わせ']],map:'69年老店麵攤 米粉湯 台北'},
+ tianjin:{walk:'東門駅 5番出口から徒歩約2分',name:'天津蔥抓餅（永康街）',tw:'天津蔥抓餅',cat:'蔥抓餅・台湾小吃',status:'マスト',address:'台北市大安區永康街6巷1號',rating:'★3.6',reviews:'約4,221件',ratingNote:'Googleスナップショット',hours:'月 08:00–22:00',station:'東門 R07・O06・5番出口 徒歩約2分',spice1:'ほぼなし',spice2:'少',spiceNote:'生地自体は穏やか。辣醬を付けると辛さが上がる。八角・五香粉は基本目立たない。',menus:[['原味蔥抓餅','プレーン'],['加蛋蔥抓餅','卵入り'],['九層塔加蛋','台湾バジル＋卵']],map:'天津蔥抓餅 永康街 台北'},
+ liu:{walk:'台北駅 M5出口から徒歩約4分',name:'劉山東牛肉麵',tw:'劉山東牛肉麵',cat:'牛肉麵',status:'マスト',address:'台北市中正區開封街一段14巷2號',rating:'★4.0',reviews:'約11,128件',ratingNote:'Googleスナップショット',hours:'月 08:00–18:00',station:'台北車站 BL12・R10・M5出口 徒歩約4分',spice1:'普通',spice2:'普通',spiceNote:'紅燒は煮込み香辛料を感じる可能性あり。香りを抑えたいなら清燉が無難。',menus:[['清燉牛肉麵','澄んだスープの牛肉麺'],['紅燒牛肉麵','醤油系煮込み牛肉麺'],['小黃瓜','きゅうり小菜']],map:'劉山東牛肉麵 台北'},
+ linji:{walk:'店舗確定後に更新',name:'林記牛肉麵',tw:'林記牛肉麵',cat:'牛肉麵',status:'候補',address:'台北市中正區潮州街（店舗は直前確認）',rating:'要確認',reviews:'要確認',ratingNote:'候補店のため直前確認',hours:'候補店：営業日・時間は直前確認',station:'中正紀念堂・東門周辺（店舗確定後更新）',spice1:'普通',spice2:'普通',spiceNote:'牛肉麵一般の傾向。紅燒系なら八角等を感じる可能性。',menus:[['牛肉麵','牛肉麺']],map:'林記牛肉麵 台北'}
+};
+const mounts={moon:'p-moon',miaokou:'p-miaokou',acheng:'p-acheng',liangsu:'p-liangsu',jinan:'p-jinan',good:'p-good',tianti:'p-tianti',fang:'p-fang',p69:'p-69',tianjin:'p-tianjin',liu:'p-liu',linji:'p-linji'};
+function load(k){try{return JSON.parse(localStorage.getItem(k)||'{}')}catch(e){return {}}}function save(k,v){localStorage.setItem(k,JSON.stringify(v))}
+function mapUrl(q){return 'https://www.google.com/maps/search/?api=1&query='+encodeURIComponent(q)}
+function card(key,p){const v=load(VISITED_KEY),r=load(NOTES_KEY)[key]||{};return `<div class="place" data-key="${key}"><div class="name">${p.name}<span class="badge ${p.status==='マスト'?'must':'cand'}">${p.status}</span></div><div class="meta">${p.cat}｜${p.hours}</div><div class="snapshot"><div class="chip"><strong>Google評価</strong>${p.rating}（${p.reviews}）<br>確認日 ${CHECKED}<br><small>${p.ratingNote}</small></div><div class="chip"><strong>八角・五香粉</strong>${p.spice1}<br><strong>香辛料感</strong>${p.spice2}</div></div><div class="spice-note">補足：${p.spiceNote}</div><div class="walkinfo">🚶 ${p.walk}</div><div class="actions"><a class="mapbtn" target="_blank" href="${mapUrl(p.map)}">Googleマップ</a><button class="taxibtn" onclick="openTaxi('${escq(p.name)}','${escq(p.tw)}','${escq(p.address)}')">🚕 タクシー</button><button class="orderbtn" onclick="openOrder('${key}')">📋 注文</button><button class="stationbtn" onclick="openStation('${key}')">🚇 駅情報</button><button class="visitbtn ${v[key]?'on':''}" onclick="toggleVisited('${key}')">${v[key]?'✓ 行った':'○ 行った！'}</button></div><div class="reviewbox ${v[key]?'show':''}" id="review-${key}"><textarea class="memo" placeholder="一言メモ" oninput="memo('${key}',this.value)">${r.memo||''}</textarea></div></div>`}
+function escq(s){return String(s).replace(/\\/g,'\\\\').replace(/'/g,"\\'")}
+function render(){Object.entries(mounts).forEach(([k,id])=>{document.getElementById(id).innerHTML=card(k,places[k])})}
+function toggleVisited(k){const v=load(VISITED_KEY);v[k]=!v[k];if(!v[k])delete v[k];save(VISITED_KEY,v);render()}
+function memo(k,val){const all=load(NOTES_KEY),r=all[k]||{};r.memo=val;all[k]=r;save(NOTES_KEY,all)}
+function openTaxi(jp,tw,addr){document.getElementById('taxiJp').textContent=jp;document.getElementById('taxiTw').textContent=tw;document.getElementById('taxiAddr').textContent='地址：'+addr;document.getElementById('taxiMap').href=mapUrl(tw+' '+addr);document.getElementById('taxiModal').classList.add('show')}
+function openOrder(k){const p=places[k];document.getElementById('orderShop').textContent=p.name;document.getElementById('popularMenus').innerHTML='<div class="label">人気・おすすめメニュー</div>'+p.menus.map(m=>`<div class="menuitem"><div class="menuzh">${m[0]}</div><div class="menujp">${m[1]}</div></div>`).join('');setPhrase('我要一份這個，謝謝。');document.getElementById('orderModal').classList.add('show')}
+function setPhrase(t){document.getElementById('orderPhrase').textContent=t}
+function openStation(k){const p=places[k];document.getElementById('stationContent').innerHTML=`<div class="stationline"><strong>${p.name}</strong></div><div class="stationline"><strong>最寄駅・出口：</strong>${p.station}</div><div class="stationline"><strong>住所：</strong>${p.address}</div><div class="stationline warn">※出口や工事状況は現地でGoogleマップ・駅案内を再確認してください。</div><a class="bigbtn openmap" style="display:block;margin-top:10px" target="_blank" href="${mapUrl(p.map)}">Googleマップを開く</a>`;document.getElementById('stationModal').classList.add('show')}
+function closeModal(id){document.getElementById(id).classList.remove('show');if(window.speechSynthesis)speechSynthesis.cancel()}
+function speak(t){if(!('speechSynthesis'in window)){alert('この端末では読み上げに対応していません');return}speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(t);u.lang='zh-TW';u.rate=.82;const vs=speechSynthesis.getVoices();const v=vs.find(x=>/zh-TW/i.test(x.lang))||vs.find(x=>/^zh/i.test(x.lang));if(v)u.voice=v;speechSynthesis.speak(u)}
+document.querySelectorAll('.modal').forEach(m=>m.addEventListener('click',e=>{if(e.target===m)closeModal(m.id)}));render();
+</script>
+</body></html>
